@@ -1,0 +1,11 @@
+{
+  "name": "Discord watching status",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "Show on your discord what you're watching!",
+  "homepage_url": "http://luizg.dev",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs", "activeTab", "scripting"]
+}
